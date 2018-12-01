@@ -12,4 +12,6 @@ fun main(args: Array<String>) {
 
     val numbers = generateSequence(1) { x -> x + 10 }
     println(numbers.take(30).sum())
+
+    val lazyInit: Int by lazy { 10 }
 }
