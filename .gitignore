@@ -1,3 +1,4 @@
 out
-kotlin.iml
-.idea
+*.iml
+*.idea
+target
